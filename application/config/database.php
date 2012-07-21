@@ -18,10 +18,10 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-			'hostname'   => 'localhost',
-			'database'   => 'tagging',
-			'username'   => 'root',
-			'password'   => '',
+			'hostname'   => 'a.db.shared.orchestra.io',
+			'database'   => 'db_99da2d34',
+			'username'   => 'user_99da2d34',
+			'password'   => ')5kDAA4Cv((Uu3',
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',
