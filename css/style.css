@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-image: url("img/noise.png");
+    color: #525C66;
+}
+img{
+    border: 0;
+}
+a{
+    color: #525C66;
+}
+a:hover{
+    color: #1197f0;
+    text-decoration: none;
+}
+div#container{
+    width: 1000px;
+    margin: 0 auto;
+    border-left: 1px solid rgba(0, 0, 0, 0.03);
+    border-right: 1px solid rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    font-size: 13px;
+    font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+}
+div#nav{
+    border-bottom: solid 1px #ccc;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+ul{
+    padding-left: 0;
+    overflow: hidden;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+}
+ul li a{
+    display: block;
+    width: auto;
+    margin-right: 15px;
+    float: left;
+}
+div#content{
+    padding: 20px;
+    min-height: 600px;
+    height: auto;
+    _height:600px !important;
+    overflow: hidden;
+}
+fileinput-button input {
+    border: solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer;
+}
+btn-success,btn-success:hover{
+    color:#ffffff;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5BB75B;
+    background-image: -moz-linear-gradient(center top , #62C462, #51A351);
+}
+div#tagging-area{
+    position: relative;
+    width: 600px;
+   
+}
+div#draggable{
+    display: none;
+}
+div#drag{
+    width: 165px; 
+    height: 165px;
+    cursor: move;
+    background:url('img/blank.gif');
+    border: solid 1px #fff;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+form#tag-form{
+   position: absolute;
+   
+}
+form#tag-form input#tagname{
+    width: 86px;
+}
+div#wrapper{
+    float: left;
+    width: 650px;
+}
+div#name-list{
+    widows: 340px;
+    text-align: left;
+    overflow: hidden;
+}
+div#name-list span,div#left span,div#right a{
+    float: left;
+    margin: 10px;
+}
+div#left{
+    float: left;
+    width: 30%;
+  
+}
+div#right{
+    width: 65%;
+    float: right;
+    padding-left: 15px;
+    border-left: solid 1px #ccc;
+    min-height: 400px;
+}
+.tagOn,div.tag:hover{
+        border:1px solid #fff;
+}
+.tagOn div{
+    background-color: #ccc;
+}
+a.tag{
+    display: block;
+    border: solid 1px #0074c7;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #acd4f0;
+}
